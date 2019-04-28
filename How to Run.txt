@@ -1,0 +1,26 @@
+
+
+You must import all these libraries:
+   - bs4 module : BeautifulSoup
+   - pyspark module : SparkContext
+   - requests
+   - urllib
+   - matplotlib
+
+Note: -pyspark requires jdk min version 8, hadoop, installed.
+      -4 GB RAM is required. 
+STEPS:
+
+1.) the requests function will fetch the webpages corresponding to the url.
+
+2.) then contents will be fetched by the BeautifulSoup module.
+
+3.) We fetch all the paragraphs using the findall function and getting the <p> tag.
+
+4.) Now we fetch the two paragraphs.
+
+5.) By using SparkContext we start the spark shell using python.
+
+6.) now we count the occourances of words from te scraped content
+
+7.) At last we we plot the graph for the following gathered data.
